@@ -1,0 +1,39 @@
+#messenger{
+    margin: 0.5rem 0;
+}
+#userList {
+    width: 30%;
+}
+
+#searchText {
+    padding: 2px 2px 2px 8px;
+    border: 1px solid rgb(0, 119, 255);
+    border-radius: 15px;
+    width: 90%;
+}
+
+#chatPersonDP {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #969696;
+}
+.userName{
+    margin-top: 3px;
+}
+
+.eachUser {
+    margin: 0.5rem 0;
+}
+
+#showSearchResult{
+    /*background-color: rgba(2 132 199);*/
+    background-color: rgba(2, 132, 199, 0.8);
+    color: white;
+    position: fixed;
+    left: 36%;
+    top: 11.5%;
+    padding: 5px 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

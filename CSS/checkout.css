@@ -1,0 +1,14 @@
+.checkoutContainer {
+    width: 50%;
+    margin: 7rem auto 0 auto;
+}
+
+.confirmBtn {
+    margin-top: 1rem;
+    border: 0;
+}
+.cardIcon{
+    font-size: x-large;
+    color: rgb(12 74 110);
+    margin-bottom: 3px;
+}

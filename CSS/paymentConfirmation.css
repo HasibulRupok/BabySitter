@@ -1,0 +1,25 @@
+.senderImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid cyan;
+    margin: 3rem auto 1rem auto;
+}
+#getInfoBtn:hover{
+    box-shadow: 0 0 5px black;
+}
+.userName {
+    width: fit-content;
+    margin: 4px auto;
+    font-size: large;
+    font-weight: 600;
+}
+.reqSenderInfo{
+    width: fit-content;
+    margin: 1rem auto 1px auto;
+}
+.reqSenderInfo i{
+    font-size: x-large;
+    margin-bottom: 0.5rem;
+    color: rgb(2 132 199);
+}

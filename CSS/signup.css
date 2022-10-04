@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signup {
+    /*background-image: url(../Background/signUP.jpg);*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.signup::after {
+    content: "";
+    background: url("../Background/2106.q702.007.S.m005.c10.babysitter\ illustration.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.topLine{
+    color: rgb(52 211 153);
+    font-weight: 900;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.center {
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.margin-left {
+    margin-left: 5px;
+}
+
+.margin-right {
+    margin-right: 5px;
+}
+
+.signup-btn {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#container {
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(107, 107, 107);
+}
+
+#submitButton {
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+}
+
+#submitButton:hover {
+    background-color: rgb(246, 166, 180);
+    color: white;
+    box-shadow: 0 0 2px rgb(106, 106, 106);
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+    box-shadow: 0 0 2px rgb(106, 106, 106);
+}
+
+.transparentInput {
+    background: transparent;
+    border: none;
+    box-shadow: 0 0 2px rgb(106, 106, 106);
+}
+
+.requireError{
+    visibility: hidden;
+}
+.existError{
+    visibility: hidden;
+}
+#gender-sec{
+    display: inline-block;
+}
+
+.display-inline{
+    display: inline;
+}
+.display-inlineblock{
+    display: inline-block;
+}

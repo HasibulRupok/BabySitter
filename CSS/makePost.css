@@ -1,0 +1,28 @@
+.postFormSec {
+    width: 40%;
+    margin: 20px auto 5px auto;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.327);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.heddingText {
+    color: rgb(21, 96, 193);
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.postButtonContainer {
+    text-align: center;
+}
+
+.postButton {
+    border: 1px solid rgb(21, 96, 193);
+    color: rgb(21, 96, 193);
+}
+
+.postButton:hover {
+    background-color: rgb(21, 96, 193) !important;
+    color: white;
+}

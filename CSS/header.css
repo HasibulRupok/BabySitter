@@ -1,0 +1,153 @@
+.buttonHover:hover {
+    text-decoration: underline;
+    color: wheat;
+}
+
+.width10 {
+    width: 10%;
+}
+
+.width90 {
+    width: 90%;
+}
+
+.postShaddow {
+    box-shadow: 0 0 30px rgb(163, 163, 163);
+    padding: 15px;
+}
+
+.boxShadow {
+    box-shadow: 0 0 30px blanchedalmond;
+    padding: 5px;
+}
+
+.postContainer {
+    margin-left: 10%;
+    margin-top: 3.5rem;
+    border-left: 0.1px solid black;
+}
+
+.activeUserContainer {
+    left: 0;
+    top: 7.8%;
+    position: fixed;
+}
+
+.topSticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+/* active user  */
+.activeUserImage {
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px 3px 5px 0;
+}
+
+.activeUserName {
+    margin: 11px 0 0 3px;
+}
+
+
+/*post container*/
+.singlePost {
+    margin-bottom: 15px !important;
+}
+
+.fa-sack-dollar,
+.fa-clock {
+    font-size: 20px;
+    color: rgb(3 105 161);
+}
+
+
+/*toggle div (profile and signout)*/
+.toggleContainer {
+    /*background-color: rgb(8 145 178);*/
+    width: 260px;
+    border-radius: 10px;
+    margin: 8px 0;
+    padding: 20px 20px;
+    position: fixed;
+    right: 0;
+    top: 50px;
+    z-index: 1;
+    /*display: none;*/
+    visibility: hidden;
+}
+
+.toggle {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.tgButton {
+    box-shadow: 0 0 10px black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tgButton:hover {
+    box-shadow: 0 0 20px rgb(217 249 157);
+}
+
+#signOutBtn {
+    margin-left: 5px;
+    background-color: rgb(159 18 57);
+}
+
+
+/*hidden message div */
+.toggle2 {
+    /*visibility: visible !important;*/
+    display: block !important;
+}
+
+#hiddeMessageDiv {
+    margin-top: 10px;
+    display: none;
+    /*visibility: hidden;*/
+}
+
+.smsInput {
+    width: 87%;
+    border: 1px solid rgb(3 105 161);
+    padding: 3px 0 3px 10px;
+}
+
+.msgSendButton {
+    margin-left: 5px;
+    padding: 3px 20px;
+    border: 2px solid rgb(3 105 161);
+}
+
+.msgSendButton:hover {
+    background-color: rgb(3 105 161);
+    color: white;
+}

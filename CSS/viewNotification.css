@@ -1,0 +1,12 @@
+.postShaddow {
+    box-shadow: 0 0 10px black;
+}
+
+.reqImage {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.isBooked{
+    display: none;
+}

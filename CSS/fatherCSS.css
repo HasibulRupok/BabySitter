@@ -1,0 +1,6 @@
+.disable-links {
+    pointer-events: none;
+}
+.displayNone{
+    display: none;
+}
