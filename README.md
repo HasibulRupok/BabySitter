@@ -40,7 +40,8 @@ BabySitter was developed by:
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and distribute it according to the terms of the license.
+This project is licensed under the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/). You are free to download and use this application, but you must provide appropriate credit to the original authors.
+
 
 ## Acknowledgements
 
@@ -53,4 +54,5 @@ We would like to thank the following resources and communities for their valuabl
 - [Freepik](https://www.freepik.com/): Free pricures provider.
 
 ## Achievement 
+
 This project became Second Runner Up on CSE project show Summer-2022 at [United International University](https://www.uiu.ac.bd/)
