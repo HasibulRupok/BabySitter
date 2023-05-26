@@ -26,7 +26,7 @@ BabySitter is developed using the following technologies:
 
 To run the BabySitter web application locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/BabySitter.git`
+1. Clone the repository: `git clone https://github.com/HasibulRupok/BabySitter`
 2. Set up a web server (e.g., Apache) and ensure PHP and MySQL are properly configured.
 3. Import the provided database schema and sample data into your MySQL database.
 4. Update the database connection settings in the PHP files to match your local environment.
